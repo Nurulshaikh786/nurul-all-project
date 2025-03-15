@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Project-1 </title>
+</head>
+
+<body>
+    <h1 align="center"> First-Project</h1>
+    <hr />
+    <h2>Lists</h2>
+    <hr />
+    <br />
+    <h3>Un-ordered list</h3>
+    <ul>
+        <h4>Name</h4>
+        <li>Nurul</li>
+        <li>Pratham</li>
+        <li>Shivam</li>
+    </ul>
+    <h3>Ordered list</h3>
+    <ol>
+        <h4>Courses</h4>
+        <li>Fullstack</li>
+        <li>Backend</li>
+        <li>Frontend</li>
+    </ol>
+    <hr />
+
+    <h2>Image , Marquee , Center and Font tags</h2>
+    <hr />
+    <center>
+        <img src="./image/kingfisher.jpg" height="500px" width="800px" />
+    </center>
+    <marquee direction="right" width="55%" behavior="slide" scrollamount="10px">
+        <font size="6" color="navy">Kingfisher</font>
+    </marquee>
+    </br>
+    <hr />
+    <h2>Form tag</h2>
+    <hr />
+    <form>
+        <label for="name">Name : </label>
+        <input type="font" id="name" name="name" placeholder="Enter Your Name" required />
+        <br />
+        <br />
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" placeholder="Enter Your Mail id" required />
+        <br />
+        <br />
+        <label for="password">Password : </label>
+        <input type="password" id="password" name="password" placeholder="Enter Your Password" required />
+        <br />
+        <br />
+        <label>Gender : </label>
+        <input type="radio" id="male" name="gender" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" />
+        <label for="female">Female</label>
+        <br />
+        <br />
+        <label>City : </label>
+        <select>
+            <option selected disabled>--Select-city--</option>
+            <option>Navsari</option>
+            <option>Surat</option>
+            <option>Vapi</option>
+            <option>Ahmedabad</option>
+        </select>
+        <br />
+        <br />
+        <label for="bio">Bio : </label>
+        <br />
+        <textarea id="bio" rows="3" cols="40"></textarea>
+        <br />
+        <br />
+        <button value="Submit" height="10px">Submit</button>
+        <input type="reset" value="Reset">
+
+    </form>
+    <hr />
+    <h2>Table</h2>
+    <hr />
+    </br>
+    <table border="1px" cellspacing="5px">
+        <caption>Sample Table</caption>
+        <thead>
+            <tr>
+                <th colspan="2" bgcolor="#ACD8E5">Header 1</th>
+                <th colspan="2" bgcolor="#8FED8F">Header 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2" bgcolor="#EF807F">Row 1 , Cell 1</td>
+                <td>Row 1 , Cell 2</td>
+                <td>Row 1 , Cell 3</td>
+                <td>Row 1 , Cell 4</td>
+            </tr>
+            <tr>
+                <td>Row 2 , cell 2</td>
+                <td rowspan="2" colspan="2" bgcolor="#FFFEDF">Row 2 , cell 3</td>
+            </tr>
+            <tr>
+                <td bgcolor="#FF9F79">Row 3 , cell 1</td>
+                <td bgcolor="#D3D3D3">Row 3 , cell 2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4" bgcolor="#DFB0BC">Table footer</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

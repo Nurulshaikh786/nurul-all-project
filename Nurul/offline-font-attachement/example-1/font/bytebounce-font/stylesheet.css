@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'ByteBounce';
+    src: url('ByteBounce.woff2') format('woff2'),
+        url('ByteBounce.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

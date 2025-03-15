@@ -1,0 +1,65 @@
+<! DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+	</head>
+	<body bgcolor="#d8f7ff">
+		<hr/>
+		<h1 align="center"><font size="7" color="navy">Form</font></h1>
+		<hr/>
+		
+		<form>
+			<label for="firstname">First Name : <label>&nbsp;&nbsp;
+			<input type="text" id="firstname"  placeholder="Enter your First Name" name="name" required/><br/><br/> 
+			
+			<label for="lastname">Last Name  :  <label>&nbsp;&nbsp;&nbsp;
+			<input type="text" id="lastname"  placeholder="Enter your  Last Name" name="lastname"/><br/><br/>
+			<label for="phone">Phone Number : </label>
+			<input type="tel" required placeholder="Enter your phone number"/><br><br>
+			
+			<label for="email">Email Id   : <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="mail" id="email"  placeholder="Enter you email" name="email"/><br/><br/>
+			
+			<label for="password">Password : <label>&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="password" id="paswword" value="" placeholder="Enter The Password" name="password" required/><br/><br/>
+			
+			<label for="dob">Date of Birth : <label>
+			<input type="date" id="dob"   name="dob"/><br/><br/>
+			
+			<label >Gender : <label>
+			<input type="radio" id="male"  name="gender" checked /><label for="mail">Male</label>
+			<input type="radio" id="female" value="femlae" name="gender"/><label for="femail">Female<label><br/><br/>
+			
+			<label for="city">Select your city : </label>
+			<select id="city">
+				<option selected disabled name="select">---Select---City---</option>
+				<option value="navsari">Navsari</option>
+				<option value="surat">Surat</option>
+				<option name="ahmedabad">Ahmedabad</option>
+				<option name="gandhinagar">Gandhnagar</option>
+			</select>
+			<br>
+			<br>
+			<label for="adress"> Address : <label>
+			<textarea id="address" placeholder="Enter your address" rows="4"></textarea><br/><br/>
+			
+			<label >Hobbies : <label>
+			<input type="checkbox" id="draw"  name="hobby" checked /><label for="draw">Drawing</label>&nbsp;&nbsp;
+			<input type="checkbox" id="read" value="" name="hobby"/><label for="read">Reading<label>&nbsp;&nbsp;
+			<input type="checkbox" id="run" value="" name="hobby"/><label for="run">Running<label>&nbsp;&nbsp;
+			<input type="checkbox" id="football" value="" name="hobby"/><label for="football">Football<label>&nbsp;&nbsp;
+			<input type="text" id="other"  placeholder="Enter other hobbies" name="hobby"/><br/><br/>
+			<label>Favorite colour :</label>
+			<input type="color" >
+			<br/><br/>
+			<label for="range">Rate us between 1-10 :</label>
+			<input type="range" value="7.5" min="1" max="10"/>
+			<center>
+			
+			<button style="height:40px; width:90px; font-size:20px; margin:70px;"><strong>Submit</strong></button>
+			<input type="reset" value="Reset " style="height:40px; width:100px; font-size:20px;font-weight:bold;">
+			</center>
+			
+		</form>
+	</body>
+</html>

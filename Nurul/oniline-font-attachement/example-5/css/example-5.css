@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+section{
+    margin-top: 170px;
+    margin-left: 630px;
+    height:550px;
+    max-width: 600px;
+    background-color: rgb(211, 83, 230);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+h1{
+    font-family: "Merienda", serif;
+    font-size: 40px;
+    text-align: center;
+
+}
+p{
+    font-family: "Merienda", serif;
+    font-size: 24px;
+    text-align: justify;
+    word-spacing: 3px;
+}

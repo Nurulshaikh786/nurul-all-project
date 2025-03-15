@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image{
+    width: 1;
+    height: 100vh;
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img2{
+    background-image: url(../image/iron-man-sketch.jpg);
+}
+.img1{
+    background-image: url(../image/iron-man.jpg);
+}
+
+.img4{
+    background-image: url(../image/hulk-sketch.jpg);
+}
+.img3{
+    background-image: url(../image/hulk.jpg);
+}
+
+.img6{
+    background-image: url(../image/thor-sketch.jpg);
+}
+.img5{
+    background-image: url(../image/thor.jpg);
+}
+
+.img8{
+    background-image: url(../image/captain-america-sketch.jpg);
+}
+.img7{
+    background-image: url(../image/captain-america.jpg);
+}
+
+.img10{
+    background-image: url(../image/dr.strang-sketch.jpg);
+}
+.img9{
+    background-image: url(../image/doctor\ strange.jpg);
+}
+
+.img12{
+    background-image: url(../image/black-panther-sketch.jpg);
+}
+.img11{
+    background-image: url(../image/black-panther.jpg);
+}
+
+.img14{
+    background-image: url(../image/starlord-sketch.jpg);
+}
+.img13{
+    background-image: url(../image/stralord.jpg);
+}
+
+.img16{
+    background-image: url(../image/black-widow-sketch.jpg);
+}
+.img15{
+    background-image: url(../image/black-widow.jpg);
+}
+
+.img18{
+    background-image: url(../image/spider-man-sketch.jpg);
+}
+.img17{
+    background-image: url(../image/spider-man.jpg);
+}
+
+.img20{
+    background-image: url(../image/ant-man-sketch.jpg);
+}
+.img19{
+    background-image: url(../image/ant-man.jpg);
+}
+
+.img22{
+    background-image: url(../image/cap.marvel-sketch.jpg);
+}
+.img21{
+    background-image: url(../image/captain-marvel.jpg);
+}
+
+.img24{
+    background-image: url(../image/wanda-sketch.jpg);
+}
+.img23{
+    background-image: url(../image/scarlet-witch.jpg);
+}
+
+.img26{
+    background-image: url(../image/vision-sketch.jpg);
+}
+.img25{
+    background-image: url(../image/vision.jpg);
+}
+
+.img28{
+    background-image: url(../image/falcon-sketch.jpg);
+}
+.img27{
+    background-image: url(../image/falcon.jpg);
+}

@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../image/bg.jpeg);
+    background-color: #000000dc;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: color;
+    background-size: cover;
+}
+   
+.main{
+    width: 1200px;
+    height: 650px;
+    margin: 140px auto;
+    background-image: url(../image/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 80px;
+    box-shadow: rgb(0, 0, 0) 0px 22px 70px 4px;
+    position: relative;
+}
+.main form{
+    margin: 0 auto;
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    background: rgba( 255, 255, 255, 0 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 30px;
+    border-top: 2px solid rgba(255, 255, 255, 0.137);
+    border-left: 2px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow: rgba(0, 0, 0, 0.767) 2.4px 2.4px 3.2px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 25px;
+ 
+}
+.main form h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0.815);
+    text-align: center;
+    margin: 40px 0;
+}
+.main form input{
+    width: 100%;
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.062);
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.281);
+    border-left: 1px solid rgba(255, 255, 255, 0.281);
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    border-right: 1px solid rgba(0, 0, 0, 0);
+    padding: 12px 18px;
+    outline: none;
+    color: rgba(255, 255, 255, 0.753);
+    box-shadow: rgba(0, 0, 0, 0.767) 2.4px 2.4px 3.2px;
+    transition: all 0.2s ease-in-out;
+    overflow: hidden;
+    
+}
+
+.main form input:focus , .main form input:hover{
+    width: 100%;
+    margin-bottom: 30px;
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 30px;
+    border-top: 2px solid rgba(0, 0, 0, 0.281);
+    border-left: 2px solid rgba(0, 0, 0, 0.288);
+    border-bottom:  2px solid rgba(255, 255, 255, 0.045);
+    border-right:  2px solid rgba(255, 255, 255, 0.045);;
+    padding: 12px 18px;
+    outline: none;
+    color: rgba(255, 255, 255, 0.753);
+    box-shadow: none;
+    overflow: hidden;
+}
+.main form button {
+    margin-bottom: 30px;
+    width: 60%;
+    height: 10%;
+    background: rgba( 255, 255, 255, 0 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 30px;
+    border-top: 2px solid#822621ab;
+    border-left: 2px solid #822621af;
+    border-bottom:  1px solid #0000000b;
+    border-right:  1px solid #0000000b;
+    padding: 8px ;
+    margin-left: 55px;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.74) 2.4px 2.4px 3.2px;
+    color: rgba(255, 255, 255, 0.911);
+    font-weight: bold;
+    font-size: large;
+    transition: all 0.2s ease-in-out;
+    background-color: #822621ce;
+    overflow: hidden;
+}
+.main form button:hover{
+    margin-bottom: 30px;
+    border-top: 2px solid #0000002e;
+    border-left: 2px solid #0000002e;
+    border-bottom:  2px solid #ffffff0b;
+    border-right:  2px solid #ffffff0b;
+    background: rgba( 255, 255, 255, 0 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 30px;
+    background-color: #822621b4;
+    box-shadow: none;
+    overflow: hidden;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.87);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main form p{
+    border-bottom: solid 1px #ffffffc5;
+    text-align: center;
+}

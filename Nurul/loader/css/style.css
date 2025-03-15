@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    justify-content: center;
+   
+}
+.main p{
+    font-size: larger;
+    color: rgb(248, 245, 240);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.overlay{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.loader{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 15px solid rgb(0, 0, 0);
+    border-top:  15px solid rgb(255, 255, 255);
+    animation: spin 1s linear infinite;
+    
+}
+
+@keyframes spin {
+0% { transform: rotate(0deg); }
+95%{ opacity: 0;}
+100% { transform: rotate(360deg); display: none;}
+}

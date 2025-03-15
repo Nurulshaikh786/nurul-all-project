@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+section{
+    margin-top: 170px;
+    margin-left: 630px;
+    height:550px;
+    max-width: 600px;
+    background-color: rgba(243, 250, 33, 0.903);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+h1{
+    font-family: "Iceberg", serif;
+    font-size: 40px;
+    text-align: center;
+
+}
+p{
+    font-family: "Iceberg", serif;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: justify;
+}

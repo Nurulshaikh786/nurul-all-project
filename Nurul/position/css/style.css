@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #f83605c2;
+}
+.conatiner{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+.main{
+    background-color: #f83605c2;
+    display: flex;
+
+}
+.main > a{
+    font-size: 36px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #0c0000;
+    display: flex;
+}
+span{
+   font-size: 36px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+ul li{ 
+     list-style: none;
+     display: inline-block;
+}
+nav{
+   
+    justify-content: space-between;
+}
